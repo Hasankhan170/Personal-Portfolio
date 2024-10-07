@@ -7,6 +7,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* body{
+    background-color: aquamarine;
+} */
 
 /* For Scroll Behavior */
 html {
@@ -552,6 +555,7 @@ section .title::after {
 
 .contact .title::before {
     width: 210px;
+
 }
 
 .contact .contact-content .column {
@@ -667,8 +671,12 @@ footer {
     color: #fff;
     display: flex;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
-
+ 
 footer span {
     width: auto;
 }
